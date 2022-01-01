@@ -14,6 +14,7 @@ Step 3
         new_df = pd.merge(leftdf, rightdf, on=["column_leftdf", "column_rightdf"], how="left")
 Step 4 
     Split Data out into other DataFrames to be worked on
+        groupby()
 Step 5
     Create Data Series needed for the X-Axis and Y-Axis (plus more if needed, bubble size for example) 
 Step 6
@@ -27,3 +28,5 @@ Step 7
 Step 8 
     Show any Outliers by visualizing the Summary Statistics
         Box-n-Whisker Plots
+Step 9 
+    Create Alternative Charts to show the same info or enhance the information
