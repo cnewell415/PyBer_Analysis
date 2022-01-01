@@ -1,0 +1,14 @@
+Step 1
+    Visually Review Data Sets
+Step 2
+    Load CSV files
+        os.path.join()
+    Inspect
+        -Look for Null Values
+            df.count() OR df.isnull().sum()
+        -Check datatypes
+            df.dtypes
+    Clean
+Step 3
+    Merge Data Sets
+        new_df = pd.merge(leftdf, rightdf, on=["column_leftdf", "column_rightdf"], how="left")
