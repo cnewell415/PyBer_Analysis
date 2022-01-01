@@ -12,3 +12,10 @@ Step 2
 Step 3
     Merge Data Sets
         new_df = pd.merge(leftdf, rightdf, on=["column_leftdf", "column_rightdf"], how="left")
+Step 4 
+    Split Data out into other DataFrames to be worked on
+Step 5
+    Create Data Series needed for the X-Axis and Y-Axis (plus more if needed, bubble size for example) 
+Step 6
+    Create your plots or charts using the Data Series
+        -Add labels and colors
