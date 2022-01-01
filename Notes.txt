@@ -19,3 +19,11 @@ Step 5
 Step 6
     Create your plots or charts using the Data Series
         -Add labels and colors
+Step 7
+    Calculate Summary Statistics
+        1) .describe()
+        2) mean() | median() | mode()
+        3) np.mean() | np.median() | sts.mode()
+Step 8 
+    Show any Outliers by visualizing the Summary Statistics
+        Box-n-Whisker Plots
