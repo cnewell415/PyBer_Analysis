@@ -25,6 +25,18 @@ Step 7
         1) .describe()
         2) mean() | median() | mode()
         3) np.mean() | np.median() | sts.mode()
+    Create your own Summary DataFrame
+                        # Adding a list of values with keys to create a new DataFrame.
+                district_summary_df = pd.DataFrame(
+                        {"Total Schools": school_count,
+                        "Total Students": student_count,
+                        "Total Budget": total_budget,
+                        "Average Math Score": average_math_score,
+                        "Average Reading Score": average_reading_score,
+                        "% Passing Math": passing_math_percentage,
+                        "% Passing Reading": passing_reading_percentage,
+                        "% Overall Passing": overall_passing_percentage})
+                district_summary_df
 Step 8 
     Show any Outliers by visualizing the Summary Statistics
         Box-n-Whisker Plots
